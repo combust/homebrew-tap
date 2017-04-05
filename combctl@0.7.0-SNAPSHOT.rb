@@ -11,5 +11,6 @@ class CombctlAT070Snapshot < Formula
 
   def install
     prefix.install Dir["*"]
+    bin.install_symlink prefix/"bin/combctl" => "combctl"
   end
 end
