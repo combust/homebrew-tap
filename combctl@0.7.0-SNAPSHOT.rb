@@ -3,7 +3,7 @@ require "language/go"
 require 'erb'
 
 
-class CombctlAT070SNAPSHOT < Formula
+class CombctlAT070Snapshot < Formula
   homepage "github.com/combust/combust"
   url "https://github.com/combust/combust/releases/download/v0.7.0-SNAPSHOT/combctl-0.7.0-SNAPSHOT.tgz"
   sha256 "d3a4433854598cb3745534b2b80b8456044e297fedb00c217f7182ff30e262e1"
