@@ -10,8 +10,8 @@ class CombctlAT070Snapshot < Formula
   version "v0.7.0-SNAPSHOT"
 
   def install
-    prefix.install var/"combctl"
-    bin.install_symlink var/"combctl/bin/combctl"
+    prefix.install Dir["./*"]
+    bin.install_symlink prefix/"combctl/bin/combctl"
   end
 
   test do
