@@ -6,7 +6,7 @@ require 'erb'
 class CombctlAT070Snapshot < Formula
   homepage "github.com/combust/combust"
   url "https://s3-us-west-2.amazonaws.com/combust-cloud/releases/combctl-0.7.0-SNAPSHOT.tgz"
-  sha256 "3ef33bea9a6295fc96df81604225a04a2e67fca64f74d189c4ef8aaf68411c1a"
+  sha256 "62a3159ec4f859546dc63792dd39dee80235e36d154db9aaf627c3598e1c5e7e"
   version "v0.7.0-SNAPSHOT"
 
   def install
